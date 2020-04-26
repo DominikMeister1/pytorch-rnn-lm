@@ -18,7 +18,7 @@ SECONDS=0
     CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python main.py --data $data/trump \
         --epochs 40 \
         --emsize 200 --nhid 200 --dropout 0.5 --tied \
-        --save $models/model.pt
+        --save $models/model10.pt
 )
 
 echo "time taken:"
